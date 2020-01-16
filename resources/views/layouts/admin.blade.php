@@ -17,7 +17,7 @@
     <nav class="my-2 my-md-0 mr-md-3">
       <a class="p-2 text-dark" href="#">Home</a>
       <a class="p-2 text-dark" href="#">Dashboard</a>
-      <a class="p-2 text-dark" href="#">Profile</a>
+      <a class="p-2 text-dark" href="/home">Profile</a>
       <a class="p-2 text-dark" href="#">Help</a>
     </nav>
   </div>
@@ -26,8 +26,8 @@
       <div class="sidebar-heading">Overview</div>
       <div class="list-group list-group-flush">
         <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Product</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Category</a>
+        <a href="/admin/createProduct" class="list-group-item list-group-item-action bg-light">Product</a>
+        <a href="/admin/createCategory" class="list-group-item list-group-item-action bg-light">Category</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">Order</a>
         <a href="#" class="list-group-item list-group-item-action bg-light">User</a>
       </div>

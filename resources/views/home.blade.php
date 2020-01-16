@@ -17,7 +17,7 @@
                     You are logged in!
 
                     <p>{!! Auth::user()->name !!}</p>
-                    <a href="#" class="btn btn-primary">Product Management</a>
+                    <a href="/admin/createProduct" class="btn btn-primary">Product Management</a>
                     <a href="#" class="btn btn-success">Home</a>
                 </div>
             </div>

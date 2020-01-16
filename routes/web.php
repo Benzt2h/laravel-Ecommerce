@@ -22,3 +22,9 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin/createProduct', 'Admin\ProductController@create');
+Route::get('/admin/createCategory', 'Admin\CategoryController@index');
+Route::post('/admin/createCategory', 'Admin\CategoryController@store');
+Route::get('/admin/editCategory/{id}', 'Admin\CategoryController@edit');
+Route::post('/admin/updateCategory/{id}', 'Admin\CategoryController@update');
+Route::get('/admin/deleteCategory/{id}', 'Admin\CategoryController@delete');
