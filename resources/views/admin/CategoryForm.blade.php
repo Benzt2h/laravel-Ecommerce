@@ -46,6 +46,7 @@
     @endforeach
   </tbody>
 </table>
+{{$categories->links()}}
 </div>
 @else
     <div class="alert alert-danger my-2">
